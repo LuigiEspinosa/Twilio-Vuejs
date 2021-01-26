@@ -8,7 +8,6 @@
 
 <script>
     import { EventBus } from '../Event'
-    import axios from 'axios'
 
     export default {
         name: "Logs",
@@ -38,6 +37,6 @@
         border: 1px solid #7c807c;
         padding: 13px;
         margin: 3px 0px;
-        color: #f8f8ff;
+        color: #444;
     }
 </style>

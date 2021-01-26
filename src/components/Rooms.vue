@@ -18,9 +18,9 @@
         data() {
             return {
                 rooms: [
-                    {id: 1, name: 'PHP Room'},
-                    {id: 2, name: 'Python Room'},
-                    {id: 3, name: 'Daily Room'},
+                    {id: 1, name: 'Room 1'},
+                    {id: 2, name: 'Room 2'},
+                    {id: 3, name: 'Room 3'},
                 ],
                 roomCount: 3, // Keep track of the number of rooms present
                 loading: false, // Indicate when tracks in a room is being loaded
@@ -54,7 +54,7 @@
         border: 1px solid #7c817c;
         padding: 13px;
         margin: 3px 0px;
-        color: #f8f8ff;
+        color: #444;
     }
 
     .rooms {
